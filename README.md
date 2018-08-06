@@ -1,2 +1,3 @@
-# sistema-pyladies-sp
-Sistema de controle PyLadies SP
+# Sistema Pyladies SP
+Sistema de Controle PyLadies SP
+
