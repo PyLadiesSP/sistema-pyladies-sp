@@ -7,8 +7,8 @@ Use docker e não precisa instalar o Postgres localmente.
 
 ### Dependências:
 
-- docker
-- docker-compose
+- [Docker](https://docs.docker.com/install/)
+- [docker-compose](https://docs.docker.com/compose/install/)
 - make
 
 ### Como usar:
