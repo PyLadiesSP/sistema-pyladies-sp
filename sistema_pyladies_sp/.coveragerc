@@ -1,0 +1,5 @@
+[run]
+include = sistema_pyladies_sp/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
