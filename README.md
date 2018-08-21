@@ -13,9 +13,31 @@ Use docker e não precisa instalar o Postgres localmente.
 
 ### Como usar:
 
-Configuração da aplicação:
+Build dos containers:
 ```
 make dev_compose_build
+```
+
+Variáveis de ambiente (.envs/.local/):
+
+.django:
+```
+USE_DOCKER=yes
+REDIS_URL=redis://localhost:6379
+DJANGO_SECRET_KEY=<your-secret-key>
+```
+
+.postgres:
+```
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=sistema_pyladies_sp
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=<your-password>
+```
+
+Inicialização da aplicação:
+```
 make dev_compose_up
 make dev_compose_migrations
 make dev_compose_migrate
